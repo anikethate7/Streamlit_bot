@@ -1,3 +1,4 @@
+
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -9,10 +10,10 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 import os
 
-st.set_page_config(page_title="Document Genie", layout="wide")
+st.set_page_config(page_title="PyPDFBot", layout="wide")
 
 st.markdown("""
-## Document Genie: Get instant insights from your Documents
+## PyPDFBot: Get instant insights from your Documents
 
 This chatbot is built using the Retrieval-Augmented Generation (RAG) framework, leveraging Google's Generative AI model Gemini-PRO. It processes uploaded PDF documents by breaking them down into manageable chunks, creates a searchable vector store, and generates accurate answers to user queries. This advanced approach ensures high-quality, contextually relevant responses for an efficient and effective user experience.
 
@@ -74,7 +75,7 @@ def user_input(user_question, api_key):
 
 
 def main():
-    st.header("AI clone chatbot💁")
+    st.header("PyPDF chatbot🤖")
 
     user_question = st.text_input("Ask a Question from the PDF Files", key="user_question")
 
