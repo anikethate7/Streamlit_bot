@@ -18,8 +18,11 @@ A Google API key with access to the Generative AI service
 Installation:
 
 Clone the repository:
+
 Bash
+
 git clone https://github.com/anikethate7/Streamlit_bot
+
 Use code with caution.
 
 Create a virtual environment (recommended):
