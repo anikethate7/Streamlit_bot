@@ -26,14 +26,21 @@ git clone https://github.com/anikethate7/Streamlit_bot
 Use code with caution.
 
 Create a virtual environment (recommended):
+
 Bash
+
 python -m venv venv
+
 source venv/bin/activate  # or venv\Scripts\activate on Windows
+
 Use code with caution.
 
 Install dependencies:
+
 Bash
+
 pip install -r requirements.txt
+
 Use code with caution.
 
 Usage:
