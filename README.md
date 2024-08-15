@@ -19,7 +19,7 @@ Installation:
 
 Clone the repository:
 Bash
-git clone https://github.com/your-username/pypdfbot.git
+git clone https://github.com/anikethate7/Streamlit_bot
 Use code with caution.
 
 Create a virtual environment (recommended):
